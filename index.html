@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="/assets/moon.png">
+  <title>Miyaji Yusei</title>
+  <meta name="description" content="Minimal portfolio showcasing projects and skills." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div class="brand-text">
+        <div class="name">Miyaji Yusei</div>
+        <div class="tag">Second Year Sophomore @ Singapore Management University</div>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-btn is-active" data-route="home" type="button">Home</button>
+      <button class="nav-btn" data-route="projects" type="button">Projects</button>
+      <button class="nav-btn" data-route="skills" type="button">Skills</button>
+      <button class="nav-btn" data-route="contact" type="button">Contact</button>
+    </nav>
+  </header>
+
+  <main id="main" class="main" aria-live="polite">
+    <!-- Views (no scrolling; we show/hide these) -->
+    <section class="view is-active" data-view="home">
+      <div class="hero">
+        <p class="pill">
+          <span class="dot mint"></span>
+          Currently looking for Summer Internship Opportunities
+        </p>
+
+        <h1 class="title">
+          Aspiring Web Developer and Data Scientist/Analyst
+        </h1>
+
+        <p class="subtitle">
+          This is my simple portfolio with some advanced features used. React is yet to be implemented.
+        </p>
+
+        <div class="cta">
+          <button class="btn primary" data-route="projects" type="button">
+            View Projects
+          </button>
+          <a class="btn ghost" href="/media_downloads/Miyaji_Yusei_Resume.pdf" download>
+            Download My Resume
+          </a>
+        </div>
+
+        <div class="highlights">
+          <div class="card">
+            <div class="card-title">Strength</div>
+            <div class="card-body">Clean code & structure</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Learning</div>
+            <div class="card-body">Next.js • APIs • Testing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Project Section -->
+
+    <section class="view" data-view="projects">
+      <div class="view-head">
+        <h2>Projects</h2>
+        <p>Small list of projects which I decided to turn into a hobby.</p>
+      </div>
+
+      <div class="grid">
+        <article class="project">
+          <div class="project-top">
+            <span class="badge">Featured</span>
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+          </div>
+          <h3>Magallanica.xyz</h3>
+          <p>
+            The website you are currently looking at!
+          </p>
+          <div class="project-links">
+            <a class="link" href="#main" rel="noreferrer">Live</a>
+            <a class="link" href="https://github.com/Zamasu9042/magallanica.xyz" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <span class="badge">UI</span>
+            <span class="chip">X</span><span class="chip">Y</span><span class="chip">Z</span>
+          </div>
+          <h3>Coming Soon™</h3>
+          <p>
+            To be unveiled in a very near future!
+          </p>
+          <div class="project-links">
+            <a class="link" href="#main" target="_blank" rel="noreferrer">Live</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <span class="badge">Another busy project</span>
+            <span class="chip">Some Algorithm</span>
+          </div>
+          <h3>TBD</h3>
+          <p>
+            This will be edited soon. Stay tuned!
+          </p>
+          <div class="project-links">
+            <a class="link" href="#" target="_blank" rel="noreferrer">Live</a>
+            <a class="link" href="#" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" data-view="skills">
+      <div class="view-head">
+        <h2>Proficiencies</h2>
+        <p>Below are a list of my proficiencies in tech and other skills.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="panel">
+          <h3>Tech</h3>
+          <ul class="list">
+            <li><span class="dot"></span> Frontend</li>
+            <li><span class="dot"></span> Backend</li>
+            <li><span class="dot"></span> Databases</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>World Languages</h3>
+          <ul class="list">
+            <li><span class="dot"></span> English - Native Speaker</li>
+            <li><span class="dot"></span> Japanese - JLPT N4</li>
+            <li><span class="dot"></span> Chinese - Working Knowledge</li>
+            <li><span class="dot"></span> Bahasa Melayu/Indonesia - Native Speaker</li>
+            <li><span class="dot"></span> Spanish - Very Good Command</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="note">
+        Random Footer to be decided.
+      </div>
+    </section>
+
+    <section class="view" data-view="contact">
+      <div class="view-head">
+        <h2>Contact Me!</h2>
+        <p>Any questions? You can follow any of my social links below:</p>
+      </div>
+
+      <div class="grid two">
+        <div class="panel">
+          <h3>Link Wall</h3>
+          <p class="muted">
+            Current email is my school email. If you would like to reach out privately please do specify when mailing my school email!
+          </p>
+          <div class="contact-links">
+            <a class="btn primary" href="mailto:yuseimiyaji.2024@computing.smu.edu.sg">Email My School Email</a>
+            <a class="btn ghost" href="https://github.com/Zamasu9042" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/yusei-miyaji-92013026b" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Quick message (Yet to be functional)</h3>
+          <form id="contactForm" class="form">
+            <label>
+              <span>Name</span>
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn violet" type="submit">Copy message to clipboard</button>
+            <p class="form-hint" id="formHint" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Miyaji Yusei</span>
+    <span class="sep">•</span>
+    <span class="muted">Built with HTML, CSS, JS</span>
+  </footer>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>
